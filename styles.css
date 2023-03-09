@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: rgb(224, 224, 224);
+    font-size: 35px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.nav-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: rgb(224, 224, 224);
+    padding: 0 10px;
+    font-size: 15px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+body {
+    background-image: url('images/SL-011719-17920-65.png');
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .texto {
+    margin-top: 20px; /* Márgen superior de 20 píxeles */
+    margin-bottom: 20px; /* Márgen inferior de 20 píxeles */
+    margin-left: 30px; /* Márgen izquierdo de 30 píxeles */
+    margin-right: 30px; /* Márgen derecho de 30 píxeles */
+  }
+
+.container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  float: right;
+  margin-right: 500px;
+}
+
+.block {
+    width: 100px;
+    height: 350px;
+    background-color: none;
+}
+  
+.texto {
+    width: 500px; /* Ancho del bloque */
+    text-align: left;
+    margin: 50px auto; /* Centrar el bloque horizontalmente */
+    padding: 20px; /* Espacio de relleno alrededor del contenido del bloque */
+    background-color: none; /* Color de fondo del bloque */
+}
+  
+.texto {
+    width: 80%; /* Ancho del bloque */
+    margin: 0 auto; /* Centrar el bloque horizontalmente */
+    padding: 20px; /* Espacio de relleno alrededor del contenido del bloque */
+    background-color: white; /* Color de fondo del bloque */
+    border: 1px solid none 20, 161, 27; /* Borde del bloque */
+    border-radius: 5px; /* Radio de borde para bordes redondeados */
+}
